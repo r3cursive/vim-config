@@ -7,3 +7,4 @@ then
 fi
 echo "symlinking .vimrc to git repo"
 ln -s $GITDIR/vimrc ~/.vimrc
+bash $GITDIR/updateSubmodules.sh
